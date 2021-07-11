@@ -59,19 +59,19 @@ VALUE ("Lawyer", 190000, 4);
 
 
 INSERT INTO employee (first_name, last_name, manager_id, role_id)
-VALUE ("Jessica", "Haze", null, 1);
+VALUE ("Mark", "Bee", null, 1);
 INSERT INTO employee (first_name, last_name, manager_id, role_id)
-VALUE ("Tiffany", "Patric", null, 2);
+VALUE ("Mya", "Dieso", null, 2);
 INSERT INTO employee (first_name, last_name, manager_id, role_id)
-VALUE ("Mia","Lam",null,3);
+VALUE ("Liam","Cengiz",null,3);
 INSERT INTO employee (first_name, last_name, manager_id, role_id)
-VALUE ("Bently", "Lao", 1, 4);
+VALUE ("Gianpiero", "Sezio", 1, 4);
 INSERT INTO employee (first_name, last_name, manager_id, role_id)
-VALUE ("Chris", "Melby", 4, 5);
+VALUE ("Christopher", "Shamer", 4, 5);
 INSERT INTO employee (first_name, last_name, manager_id, role_id)
-VALUE ("Jason", "Baker", 1, 6);
+VALUE ("Jackson", "Llarson", 1, 6);
 INSERT INTO employee (first_name, last_name, manager_id, role_id)
-VALUE ("Tom", "Nice", 2, 7);
+VALUE ("Jim", "Slim", 2, 7);
 
 
 SELECT * FROM department;
