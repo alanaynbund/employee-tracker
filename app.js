@@ -1,4 +1,4 @@
-//======== Dependencies===================//
+//== Dependencies ==//
 const inquirer = require("inquirer")
 const mysql = require("mysql2")
 const cTable = require('console.table');
@@ -12,13 +12,13 @@ const connection = mysql.createConnection({
 });
 
 
-//========== Connection ID ==========================//
+//== Connection ID ==//
 connection.connect(function (err) {
     if (err) throw err
     console.log("Connected as Id" + connection.threadId)
     startPrompt();
 });
-//================== Initial Prompt =======================//
+//== Initial Prompt ==//
 function startPrompt() {
     inquirer.prompt([
         {
